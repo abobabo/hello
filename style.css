@@ -1,0 +1,246 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    /* Remove gradient from body */
+    /* background-color: #FFFFFF; */
+    /* Fallback solid color */
+    /* background-image: linear-gradient(180deg, #48D1FF 0%, #FFFFFF 70%); */
+    /* background-repeat: no-repeat; */
+    /* Prevent gradient repeating */
+    /* min-height: 100vh; */
+    /* Ensure gradient covers at least viewport height */
+}
+
+.banner {
+    position: relative;
+    /* Needed for absolute positioning of children */
+    height: 200px;
+    /* Match background heights */
+    overflow: hidden;
+    /* Hide overflow from animations */
+    /* Apply gradient here */
+    background-color: #FFFFFF;
+    /* Fallback solid color for bottom */
+    background-image: linear-gradient(180deg, #48D1FF 0%, #FFFFFF 70%);
+    background-repeat: no-repeat;
+    /* Ensure gradient doesn't repeat */
+}
+
+/* Mask bottom edge of clouds */
+.banner::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    background: #ffffff;
+    z-index: 5;
+    /* above cloud images */
+    pointer-events: none;
+}
+
+.scrolling-background {
+    /* margin-left: -8px; */
+    /* Removed potential layout issue */
+    /* margin-top: 20px; */
+    /* Removed potential layout issue */
+    position: absolute;
+    top: 0;
+    /* Ensures the image is at the top of the page */
+    left: 0;
+    /* Ensure it starts from the left edge */
+    width: 100%;
+    /* Use 100% instead of 100vw for better consistency */
+    height: 200px;
+    background-image: url('img/CloudsWhiteFade.png');
+    /* Updated path */
+    background-repeat: repeat-x;
+    background-position: center bottom;
+    /* Position the image at the top */
+    animation: infinite-shift-right 3000s linear infinite;
+    z-index: 2;
+    /* Ensuring the scrolling background is beneath the top image */
+}
+
+.top-image {
+    /* margin-left: -8px; */
+    /* Removed potential layout issue */
+    position: absolute;
+    top: 0;
+    /* Ensures the image is at the top of the page */
+    left: 0;
+    /* Ensure it starts from the left edge */
+    width: 100%;
+    /* Use 100% instead of 100vw */
+    height: 200px;
+    background-image: url('img/CloudsGrey.png');
+    /* Updated path */
+    background-repeat: repeat-x;
+    background-position: center bottom;
+    /* Position the image at the top */
+    animation: infinite-shift-left 2000s linear infinite;
+    z-index: 1;
+    /* Ensuring the top image is above the scrolling background */
+}
+
+.logo-container {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 4;
+    /* Make sure logo is on top */
+    pointer-events: none;
+    /* Allow clicks to pass through to overlay if needed */
+}
+
+.logo {
+    height: 80px;
+    /* Adjust size as needed */
+    width: auto;
+}
+
+@keyframes scroll {
+    0% {
+        background-position: 0 80%;
+    }
+
+    100% {
+        background-position: 100% 80%;
+    }
+}
+
+@keyframes scroll-reverse {
+    0% {
+        background-position: 100% 100%;
+    }
+
+    100% {
+        background-position: 0% 100%;
+    }
+}
+
+@keyframes infinite-shift-left {
+    0% {
+        background-position: 50000px 90%;
+    }
+
+    100% {
+        background-position: 0 90%;
+    }
+}
+
+@keyframes infinite-shift-right {
+    0% {
+        background-position: 0 100%;
+    }
+
+    100% {
+        background-position: 50000px 100%;
+    }
+}
+
+.image-container,
+.scrolling-image,
+.top-image,
+.scrolling-background {
+    pointer-events: none;
+}
+
+.clickable-overlay {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 300px;
+    /* Adjust size to cover logo area */
+    height: 100px;
+    /* Adjust size to cover logo area */
+    z-index: 3;
+    /* Below logo container, above backgrounds */
+}
+
+.clickable-overlay a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    /* Optional: add outline for debugging */
+    /* outline: 1px solid red; */
+}
+
+main {
+    padding: 20px;
+}
+
+.support-info {
+    margin-bottom: 30px;
+}
+
+.apps {
+    margin-bottom: 30px;
+}
+
+.apps h2 {
+    margin-bottom: 10px;
+}
+
+.app-item {
+    display: inline-block;
+    text-align: center;
+    margin-right: 20px;
+    vertical-align: top;
+}
+
+.app-item img {
+    display: block;
+    width: 100px;
+    /* Adjust size as needed */
+    height: 100px;
+    /* Adjust size as needed */
+    margin-bottom: 5px;
+    border-radius: 15px;
+    /* Rounded corners like app icons */
+}
+
+/* Footer Styles */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    border-top: 1px solid #eee;
+    margin-top: 40px;
+    color: #555;
+    font-size: 0.9em;
+}
+
+.footer-link {
+    color: #555;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+/* Imprint Page Styles */
+.imprint-info,
+.privacy-policy-app {
+    margin-bottom: 30px;
+}
+
+.imprint-info h2,
+.privacy-policy-app h2 {
+    margin-bottom: 10px;
+}
+
+.privacy-policy-app p a {
+    color: #007bff;
+    /* Standard link blue */
+    text-decoration: none;
+}
+
+.privacy-policy-app p a:hover {
+    text-decoration: underline;
+}
