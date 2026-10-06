@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#24152f" />
+    <meta
+      name="description"
+      content="Welcome to Pango Land. Explore a playful world, meet new friends, and play your way to fluency — one little adventure at a time."
+    />
+    <title>Pango Land — Play your way to fluency</title>
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link
+      rel="preload"
+      href="./assets/logo.webp"
+      as="image"
+      fetchpriority="high"
+    />
+    <script type="module" crossorigin src="./assets/index-DfRbpMNB.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-B6e5V69M.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#adventure">Skip to the adventure</a>
+    <main>
+      <section class="world" id="world" aria-label="Welcome to Pango Land">
+        <header class="navigation">
+          <a class="wordmark" href="#world" aria-label="Pango Land home"
+            ><span class="brand-spark" aria-hidden="true">✦</span> pango<span
+              >land</span
+            ><span class="wordmark-dot">.</span></a
+          >
+          <nav aria-label="Main navigation">
+            <a class="nav-link" href="#about">About Us</a>
+            <a class="nav-link" href="#faq">FAQ</a>
+          </nav>
+        </header>
+
+        <div class="banner-title">
+          <p class="banner-eyebrow">A NEW WORLD OF LANGUAGE LEARNING</p>
+          <img
+            class="banner-logo"
+            src="./assets/logo.webp"
+            alt="Pango Land"
+            width="790"
+            height="451"
+            fetchpriority="high"
+          />
+        </div>
+
+        <div class="globe-stage">
+          <div class="globe-halo" aria-hidden="true"></div>
+          <div class="globe-view" id="globe-view">
+            <img
+              class="globe-poster"
+              src="./assets/globe-poster.webp"
+              alt=""
+              width="1024"
+              height="1024"
+            />
+            <canvas
+              id="globe-canvas"
+              tabindex="0"
+              role="img"
+              aria-label="Interactive globe with flags for France, Germany, the Netherlands, Simplified Chinese, Traditional Chinese, Japan, and Mexico"
+              aria-describedby="globe-instructions"
+            ></canvas>
+          </div>
+        </div>
+        <p id="globe-instructions" class="visually-hidden">
+          Drag to spin the globe. When focused, use the arrow keys to rotate it
+          and Space to pause or resume automatic rotation.
+        </p>
+        <span class="orbital-word orbital-word-left" aria-hidden="true"
+          >hola<span>!</span></span
+        >
+        <span class="orbital-word orbital-word-right" aria-hidden="true"
+          >bonjour<span>!</span></span
+        >
+        <svg
+          class="section-wave"
+          viewBox="0 0 1440 65"
+          preserveAspectRatio="none"
+          aria-hidden="true"
+        >
+          <path
+            d="M0 36C200 70 352 8 554 26C780 46 977 74 1160 36C1280 11 1360 15 1440 28V65H0Z"
+          />
+        </svg>
+      </section>
+
+      <section
+        class="adventure"
+        id="adventure"
+        aria-labelledby="adventure-title"
+      >
+        <div class="adventure-inner">
+          <div class="adventure-copy">
+            <p class="eyebrow">
+              <span aria-hidden="true">✦</span> SMALL ADVENTURES. BIG
+              POSSIBILITIES.
+            </p>
+            <h1 id="adventure-title">
+              <span class="play-highlight"
+                >Play<svg
+                  viewBox="0 0 330 20"
+                  preserveAspectRatio="none"
+                  aria-hidden="true"
+                >
+                  <path d="M5 13Q155 -2 323 9M46 18Q175 7 285 15" /></svg
+              ></span>
+              your way<br />to fluency.
+            </h1>
+            <p class="intro">
+              A world to explore. Friends to meet. A new language to make your
+              own.
+            </p>
+            <p class="description">
+              Join Pango on a playful adventure where everyday moments become
+              little language discoveries.
+            </p>
+            <div class="store-links" aria-label="Download Pango Land">
+              <a
+                class="store-badge google-play-badge"
+                href="https://play.google.com/store/apps/details?id=com.edexy.ltp"
+                aria-label="Get Pango Land on Google Play"
+              >
+                <img
+                  src="./assets/google-play-badge.png"
+                  alt="Get it on Google Play"
+                  width="646"
+                  height="250"
+                />
+              </a>
+              <a
+                class="store-badge"
+                href="https://apps.apple.com/us/app/pango-land/id6478291457"
+                aria-label="Download Pango Land on the App Store"
+              >
+                <img
+                  src="./assets/app-store-badge.svg"
+                  alt="Download on the App Store"
+                  width="120"
+                  height="40"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div class="showcase" aria-label="A look inside the Pango Land game">
+            <div class="showcase-glow" aria-hidden="true"></div>
+            <button
+              class="phone-preview"
+              type="button"
+              data-preview
+              aria-label="Open a larger preview of Pango Land gameplay"
+            >
+              <img
+                src="./assets/phone-frame-composed.webp"
+                alt="Pango Land's colorful café inside a landscape phone, with characters and vocabulary to discover"
+                width="1200"
+                height="835"
+              />
+              <span class="preview-hint"
+                ><span aria-hidden="true">⤢</span> Explore the scene</span
+              >
+            </button>
+            <div class="pango" id="pango">
+              <div class="pango-greeting">
+                Hi, I'm Pango! <span aria-hidden="true">♡</span>
+              </div>
+              <img
+                src="./assets/pango.webp"
+                alt="Pango, your friendly golden pangolin adventure companion"
+                width="789"
+                height="699"
+              />
+            </div>
+            <span class="showcase-spark spark-one" aria-hidden="true">✦</span>
+            <span class="showcase-spark spark-two" aria-hidden="true">✧</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="faq-section" id="faq" aria-labelledby="faq-title">
+        <div class="faq-inner">
+          <h2 class="sr-only" id="faq-title">Frequently asked questions</h2>
+          <div class="faq-list">
+            <details name="faq">
+              <summary>
+                What is Pango Land?<span
+                  class="accordion-icon"
+                  aria-hidden="true"
+                ></span>
+              </summary>
+              <div class="faq-answer">
+                <p>
+                  Pango Land is a language-learning game where you play as a
+                  pangolin. Explore everyday places, meet characters, and
+                  complete tasks while practicing a new language.
+                </p>
+              </div>
+            </details>
+            <details name="faq">
+              <summary>
+                Which languages can I learn?<span
+                  class="accordion-icon"
+                  aria-hidden="true"
+                ></span>
+              </summary>
+              <div class="faq-answer">
+                <p>
+                  Explore French, German, Dutch, Japanese, Spanish, Simplified
+                  Chinese, and Traditional Chinese. The app continues to grow
+                  with new conversations and learning content.
+                </p>
+              </div>
+            </details>
+            <details name="faq">
+              <summary>
+                How do I learn while playing?<span
+                  class="accordion-icon"
+                  aria-hidden="true"
+                ></span>
+              </summary>
+              <div class="faq-answer">
+                <p>
+                  Talk to characters, discover objects, and take on missions in
+                  places such as restaurants, farms, and supermarkets. Tap
+                  unfamiliar words for a translation, and build your vocabulary
+                  through the things you do.
+                </p>
+              </div>
+            </details>
+            <details name="faq">
+              <summary>
+                Can I play without speaking out loud?<span
+                  class="accordion-icon"
+                  aria-hidden="true"
+                ></span>
+              </summary>
+              <div class="faq-answer">
+                <p>
+                  Yes. Conversations include a No-Mic Mode for moments when you
+                  can't speak aloud, so you can keep exploring and practicing
+                  quietly.
+                </p>
+              </div>
+            </details>
+            <details name="faq">
+              <summary>
+                Where can I download it, and is it free?<span
+                  class="accordion-icon"
+                  aria-hidden="true"
+                ></span>
+              </summary>
+              <div class="faq-answer">
+                <p>
+                  Pango Land is available on the
+                  <a
+                    href="https://apps.apple.com/us/app/pango-land/id6478291457"
+                    >Apple App Store</a
+                  >
+                  and
+                  <a
+                    href="https://play.google.com/store/apps/details?id=com.edexy.ltp"
+                    >Google Play</a
+                  >. It is free to download, with optional in-app purchases.
+                  Check your store listing for current pricing and device
+                  compatibility.
+                </p>
+              </div>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-section" id="about" aria-labelledby="about-title">
+        <h2 id="about-title">About Us<span>.</span></h2>
+        <div class="team">
+          <article class="team-member">
+            <div
+              class="profile-placeholder"
+              role="img"
+              aria-label="Profile photo placeholder"
+            >
+              <span aria-hidden="true">+</span>
+            </div>
+            <h3>John Doe</h3>
+          </article>
+          <article class="team-member">
+            <div
+              class="profile-placeholder"
+              role="img"
+              aria-label="Profile photo placeholder"
+            >
+              <span aria-hidden="true">+</span>
+            </div>
+            <h3>John Doe</h3>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2025 Edexy</p>
+      <a href="https://www.edexy-learn.com/imprint.html"
+        >Privacy Policy &amp; Imprint &amp; Terms of Service</a
+      >
+    </footer>
+
+    <dialog class="preview-dialog" aria-labelledby="preview-title">
+      <button
+        class="dialog-close"
+        type="button"
+        aria-label="Close gameplay preview"
+      >
+        ×
+      </button>
+      <div class="dialog-copy">
+        <p class="eyebrow">YOUR NEXT LITTLE ADVENTURE</p>
+        <h2 id="preview-title">Every word opens a world.</h2>
+        <p>Pull up a chair. There's something new to discover.</p>
+      </div>
+      <img
+        src="./assets/showcase.webp"
+        alt="A welcoming café in Pango Land, with a barista waving and vocabulary labels for sandwich, cake, and coffee"
+        width="1600"
+        height="1000"
+        loading="lazy"
+      />
+      <p class="dialog-caption">A glimpse inside Pango Land</p>
+    </dialog>
+  </body>
+</html>
