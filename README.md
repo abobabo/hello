@@ -12,6 +12,15 @@ https://www.edexy-learn.com/pangoland/.
 Its editable Vite source lives in `landing/` in the
 [`EDEX-LEARNING/languagegaming`](https://github.com/EDEX-LEARNING/languagegaming)
 repository. To update it, run `npm ci`, `npm test`, and `npm run build` there,
-then replace only this repository's `pangoland/` contents with the complete
-`landing/dist/` output. Commit and push to `main` to deploy through the existing
-GitHub Pages build. Keep the root homepage, legal pages, and `CNAME` in place.
+then copy `landing/dist/assets/`, `landing/dist/favicon.svg`, and
+`landing/dist/index.html` into this repository's `pangoland/` directory.
+Commit and push to `main` to deploy through the existing GitHub Pages build.
+Keep the root homepage, legal pages, and `CNAME` in place.
+
+## Jobs
+
+https://www.edexy-learn.com/jobs/ uses the same globe banner followed by the
+marketing internship posting and footer. Edit `landing/jobs.html` in the source
+repository and run the same build. Copy `dist/assets/` and `dist/favicon.svg` into
+`jobs/`, then copy `dist/jobs.html` to `jobs/index.html`. Each page includes its own
+asset snapshot, so updating one does not break the other.

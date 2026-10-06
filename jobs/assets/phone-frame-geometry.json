@@ -1,0 +1,33 @@
+{
+  "source": "media/showcase_phone.png",
+  "size": [
+    1200,
+    835
+  ],
+  "rotationDegreesClockwise": 18.4,
+  "localScreenBounds": [
+    141,
+    -30,
+    1105,
+    492
+  ],
+  "screenCornersBeforeRounding": [
+    [
+      143.26,
+      16.04
+    ],
+    [
+      1191.77,
+      364.83
+    ],
+    [
+      1036.47,
+      831.68
+    ],
+    [
+      -12.04,
+      482.89
+    ]
+  ],
+  "composition": "Centered crop of original showcase, original bezel and camera on top"
+}
