@@ -203,6 +203,23 @@ main {
     /* Rounded corners like app icons */
 }
 
+.app-icon-link {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+}
+
+.app-icon-link img {
+    margin-bottom: 0;
+}
+
+.app-icon-link:focus-visible {
+    outline: 3px solid #287eb2;
+    outline-offset: 4px;
+}
+
 /* Footer Styles */
 footer {
     display: flex;
