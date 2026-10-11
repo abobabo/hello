@@ -1,0 +1,120 @@
+{
+  "filename_suffix": "maximum height in pixels; never upscale",
+  "encoding": {
+    "format": "WebP",
+    "quality": 88,
+    "method": 6,
+    "lossless": false
+  },
+  "transform": "Crop only fully transparent outer padding, then resize proportionally with Lanczos.",
+  "artwork": [
+    {
+      "name": "battery",
+      "source": "media/Battery.png",
+      "source_sha256": "6f5121c41078120ad76e5f8bb2d5569a9cb46168eb1f5e26ce157c253712265c",
+      "source_bytes": 163052,
+      "source_width": 458,
+      "source_height": 566,
+      "source_alpha_extrema": [
+        0,
+        255
+      ],
+      "crop_bounds": [
+        0,
+        0,
+        458,
+        566
+      ],
+      "variants": [
+        {
+          "file": "battery-320.webp",
+          "maximum_height": 320,
+          "width": 259,
+          "height": 320,
+          "bytes": 16784,
+          "sha256": "2221d2a21fa34eeb437b967b354f2487f80148a8144eb6d10960286bd6802134"
+        },
+        {
+          "file": "battery-640.webp",
+          "maximum_height": 640,
+          "width": 458,
+          "height": 566,
+          "bytes": 22988,
+          "sha256": "a824f415929c61bec07fe571d7bea1855bc4abad1e4dcc3411a8aa3780e9beed"
+        }
+      ]
+    },
+    {
+      "name": "nova",
+      "source": "media/Nova.png",
+      "source_sha256": "c5a1aac89155dffebd630bd1336ec3df1579c67cf5b31c0a469ff980adc1d6f5",
+      "source_bytes": 498962,
+      "source_width": 852,
+      "source_height": 1161,
+      "source_alpha_extrema": [
+        0,
+        255
+      ],
+      "crop_bounds": [
+        0,
+        0,
+        852,
+        1161
+      ],
+      "variants": [
+        {
+          "file": "nova-320.webp",
+          "maximum_height": 320,
+          "width": 235,
+          "height": 320,
+          "bytes": 15152,
+          "sha256": "d02d12eba1f9dbc625b19faf0c839f05de7099f2b929325b12783af1c660584c"
+        },
+        {
+          "file": "nova-640.webp",
+          "maximum_height": 640,
+          "width": 470,
+          "height": 640,
+          "bytes": 33218,
+          "sha256": "f0e7769549c6a54ffd2e0991dd20e7c2418612ab974eb6918f69f775fc133ee8"
+        }
+      ]
+    },
+    {
+      "name": "clerk",
+      "source": "media/Clerk.png",
+      "source_sha256": "837a904268bc66200f7d6fd5979d098ef883b5c609b7610a158df2233f720c83",
+      "source_bytes": 538884,
+      "source_width": 892,
+      "source_height": 1208,
+      "source_alpha_extrema": [
+        0,
+        255
+      ],
+      "crop_bounds": [
+        0,
+        0,
+        892,
+        1208
+      ],
+      "variants": [
+        {
+          "file": "clerk-320.webp",
+          "maximum_height": 320,
+          "width": 236,
+          "height": 320,
+          "bytes": 18786,
+          "sha256": "427479f6f104b54763be39e23aaae026d2951a72363e7a0f2efdbc20468801a8"
+        },
+        {
+          "file": "clerk-640.webp",
+          "maximum_height": 640,
+          "width": 473,
+          "height": 640,
+          "bytes": 41914,
+          "sha256": "615bd914a86385dc7a0178a3533a15170ecc148876197d634d9f6e445a4801e1"
+        }
+      ]
+    }
+  ]
+}
