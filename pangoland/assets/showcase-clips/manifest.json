@@ -1,0 +1,95 @@
+{
+  "encoder": "h264_videotoolbox",
+  "clips": [
+    {
+      "id": "collect-vocabulary",
+      "source": "media/clips/PangoLand_Vocabulary_Showcase_Fast_Loop_v1.mp4",
+      "source_bytes": 26625958,
+      "duration_seconds": 9.0,
+      "audio": false,
+      "poster_time_seconds": 2.4,
+      "variants": [
+        {
+          "video": "collect-vocabulary-960.mp4",
+          "video_bytes": 1361283,
+          "poster": "collect-vocabulary-960.webp",
+          "poster_bytes": 34844,
+          "width": 960,
+          "height": 444,
+          "frame_rate": "30/1",
+          "faststart": true
+        },
+        {
+          "video": "collect-vocabulary-640.mp4",
+          "video_bytes": 773670,
+          "poster": "collect-vocabulary-640.webp",
+          "poster_bytes": 20802,
+          "width": 640,
+          "height": 296,
+          "frame_rate": "30/1",
+          "faststart": true
+        }
+      ]
+    },
+    {
+      "id": "character-conversation",
+      "source": "media/clips/Cafe_Conversation_Mandarin_v9.mp4",
+      "source_bytes": 24146327,
+      "duration_seconds": 14.0,
+      "audio": false,
+      "poster_time_seconds": 3.0,
+      "variants": [
+        {
+          "video": "character-conversation-960.mp4",
+          "video_bytes": 1398451,
+          "poster": "character-conversation-960.webp",
+          "poster_bytes": 33104,
+          "width": 960,
+          "height": 444,
+          "frame_rate": "30/1",
+          "faststart": true
+        },
+        {
+          "video": "character-conversation-640.mp4",
+          "video_bytes": 820967,
+          "poster": "character-conversation-640.webp",
+          "poster_bytes": 20140,
+          "width": 640,
+          "height": 296,
+          "frame_rate": "30/1",
+          "faststart": true
+        }
+      ]
+    },
+    {
+      "id": "everyday-minigames",
+      "source": "media/clips/PangoLand_Minigames_Showcase_v5.mp4",
+      "source_bytes": 18312267,
+      "duration_seconds": 15.5,
+      "audio": false,
+      "poster_time_seconds": 3.0,
+      "variants": [
+        {
+          "video": "everyday-minigames-960.mp4",
+          "video_bytes": 1700730,
+          "poster": "everyday-minigames-960.webp",
+          "poster_bytes": 27028,
+          "width": 960,
+          "height": 444,
+          "frame_rate": "30/1",
+          "faststart": true
+        },
+        {
+          "video": "everyday-minigames-640.mp4",
+          "video_bytes": 1053761,
+          "poster": "everyday-minigames-640.webp",
+          "poster_bytes": 15662,
+          "width": 640,
+          "height": 296,
+          "frame_rate": "30/1",
+          "faststart": true
+        }
+      ]
+    }
+  ]
+}
