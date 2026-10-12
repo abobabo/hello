@@ -32,9 +32,9 @@
       ]
     },
     {
-      "id": "character-conversation-v10",
-      "source": "media/clips/Cafe_Conversation_Mandarin_v10.mp4",
-      "source_bytes": 2200132,
+      "id": "character-conversation-v12",
+      "source": "media/clips/Cafe_Conversation_Mandarin_v12.mp4",
+      "source_bytes": 2265128,
       "encoder": "libx264",
       "duration_seconds": 9.0,
       "audio": false,
@@ -42,10 +42,10 @@
       "poster_time_seconds": 7.1,
       "variants": [
         {
-          "video": "character-conversation-v10-960.mp4",
-          "video_bytes": 521301,
-          "poster": "character-conversation-v10-960.webp",
-          "poster_bytes": 37628,
+          "video": "character-conversation-v12-960.mp4",
+          "video_bytes": 520590,
+          "poster": "character-conversation-v12-960.webp",
+          "poster_bytes": 37622,
           "width": 960,
           "height": 444,
           "frame_rate": "30/1",
@@ -54,10 +54,10 @@
           "faststart": true
         },
         {
-          "video": "character-conversation-v10-640.mp4",
-          "video_bytes": 310933,
-          "poster": "character-conversation-v10-640.webp",
-          "poster_bytes": 22522,
+          "video": "character-conversation-v12-640.mp4",
+          "video_bytes": 305434,
+          "poster": "character-conversation-v12-640.webp",
+          "poster_bytes": 22444,
           "width": 640,
           "height": 296,
           "frame_rate": "30/1",
